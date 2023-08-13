@@ -1,0 +1,80 @@
+body {
+    /* background: rgb(0, 0, 0); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+h3 {
+    color: #f2f3f5;
+    font-size: 24px;
+    /* font-family: sans-serif; */
+    font-weight: 600;
+}
+
+form.signup_form {
+    width: 480px;
+    min-height: 780px;
+    background-color: #313338;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* margin: 20px; */
+    overflow-y: scroll;
+}
+
+form::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.gender_area {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+
+.gender_area input {
+    width: 30px;
+    height: 15px;
+}
+
+.send_email_option {
+    display: flex;
+    padding: 10px 5px;
+}
+
+.send_email_option input{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    margin: 0 10px;
+}
+
+.message {
+    font-size: 12px;
+    text-align: left;
+    color: white;
+}
+
+input.submit {
+    background-color: #5865F2;
+    color: white;
+    margin-top: 10px;
+    height: 44px;
+    width: 100px;
+}
+
+p.checkbox_error {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #cf9220;
+}

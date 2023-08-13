@@ -1,0 +1,32 @@
+.wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.form_container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_container::before {
+    content: '';
+    background-image: url(/public/assets/images/form-background.svg);
+    /* height: 150vh;
+    width: 100vw; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     z-index: -100;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    bottom: -290px;
+    width: 100vw;
+    padding-top: 200px;
+}
